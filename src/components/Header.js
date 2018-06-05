@@ -6,13 +6,16 @@ const styles = {
     width: '100%',
     height: 'auto',
     display: 'flex',
-    backgroundColor: '#464646',
+    backgroundImage: 'url(images/info_bg.jpg)',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: '100% auto',
     color: 'white',
     flexDirection: 'row',
     justifyContent: 'start',
     '@media (max-width: 1000px)': {
       flexWrap: 'wrap',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      backgroundSize: '100% 100%',
     }
   },
   image: {
