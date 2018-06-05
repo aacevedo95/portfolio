@@ -57,7 +57,7 @@ const styles = {
 const TabContainer = ({ classes }) => (
   <div className={classes.container}>
     <NavLink
-      exact to='/'
+      exact to='/portfolio'
       className={[classes.link, classes.about].join(' ')}
       activeClassName={classes.activeLink}
     >
