@@ -14,29 +14,28 @@ const styles = {
     }
   },
   link: {
-    textDecoration: 'none',
-    textAlign: 'center',
     color: 'white',
+    backgroundColor: '#0285A1',
+    textAlign: 'center',
+    textDecoration: 'none',
     flexBasis: '20%',
     paddingTop: 27,
     paddingBottom: 27,
     paddingLeft: 60,
     paddingRight: 60,
-    backgroundColor: '#0285A1',
     '&:hover': {
       filter: 'brightness(115%)',
       transition: '.4s all',
       boxShadow: '0 0   20px  0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19)',
-
     },
-    '@media (max-width: 800px)': {
-      flexBasis: '100%',
-      flexWrap: 'wrap',
+    '@media (max-width: 1000px)': {
+      flexBasis: '100%'
     }
   },
   activeLink: {
     backgroundColor: 'black'
   },
+
   about: {
     backgroundColor: '#34344A'
   },
