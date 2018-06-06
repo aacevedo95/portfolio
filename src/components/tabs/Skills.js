@@ -6,9 +6,13 @@ const styles = {
     height: 740,
     color: 'white',
     backgroundColor: '#C89B7B',
-    paddingLeft: 107,
-    paddingRight: 107,
-    paddingTop: 68
+    paddingTop: 68,
+    paddingLeft: 200,
+    paddingRight: 200,
+    '@media (max-width: 800px)': {
+      paddingLeft: 40,
+      paddingRight: 40,
+    }
   }
 }
 

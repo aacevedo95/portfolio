@@ -6,8 +6,8 @@ const styles = {
     height: 740,
     color: 'white',
     backgroundColor: '#34344A',
-    paddingLeft: 107,
-    paddingRight: 107,
+    paddingLeft: 200,
+    paddingRight: 200,
     paddingTop: 68,
     '@media (max-width: 800px)': {
       paddingLeft: 40,
@@ -20,7 +20,10 @@ const About = ({ classes }) => (
   <div className={classes.container}>
     <h1>About Me</h1>
     <p>
-      Who am I?
+      My name is Andrés, I've been interested in computers ever since being a small kid.
+      I've lived in Gurabo, Puerto Rico for the most part of my life.
+      I am a recent graduate from the University of Puerto Rico, Bayamón. 
+
     </p>
   </div>
 )

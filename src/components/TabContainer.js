@@ -84,40 +84,4 @@ const TabContainer = ({ classes }) => (
   </div>
 )
 
-// const TabContainer = ({ classes }) => (
-//   <div className={classes.container}>
-//     <Link
-//       to='/portfolio'
-//       className={[classes.link, classes.about].join(' ')}
-//       onClick={this.handleShow(0)}
-//     >
-//       About Me
-//     </Link>
-//     <Link
-//       to='/experience'
-//       className={[classes.link, classes.experience].join(' ')}
-//     >
-//       Experience
-//     </Link>
-//     <Link
-//       to='/projects'
-//       className={[classes.link, classes.projects].join(' ')}
-//     >
-//       Projects
-//     </Link>
-//     <Link
-//       to='/skills'
-//       className={[classes.link, classes.skills].join(' ')}
-//     >
-//       Skills
-//     </Link>
-//     <Link
-//       to='/contact'
-//       className={[classes.link, classes.contact].join(' ')}
-//     >
-//       Contact
-//     </Link>
-//   </div>
-// )
-
 export default injectSheet(styles)(TabContainer)
