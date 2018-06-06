@@ -16,7 +16,7 @@ const Skills = ({ classes }) => (
   <div className={classes.container}>
     <h1>Skills</h1>
     <p>
-      To get started, edit <code>src/App.js</code> and save to reload.
+      How do i do those things?
     </p>
   </div>
 )

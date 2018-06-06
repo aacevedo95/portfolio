@@ -16,7 +16,7 @@ const Experience = ({ classes }) => (
   <div className={classes.container}>
     <h1>Experience</h1>
     <p>
-      To get started, edit <code>src/App.js</code> and save to reload.
+      What have I done?
     </p>
   </div>
 )

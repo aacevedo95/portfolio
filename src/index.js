@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import registerServiceWorker from './registerServiceWorker'
 
 import Header from './components/Header'
-import TabContainer from './components/tabs/TabContainer'
+import TabContainer from './components/TabContainer'
 
 import About from './components/tabs/About'
 import Experience from './components/tabs/Experience'

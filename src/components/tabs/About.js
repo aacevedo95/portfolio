@@ -20,16 +20,7 @@ const About = ({ classes }) => (
   <div className={classes.container}>
     <h1>About Me</h1>
     <p>
-      To get started, edit <code>src/App.js</code> and save to reload.
-      To get started, edit <code>src/App.js</code> and save to reload.
-      To get started, edit <code>src/App.js</code> and save to reload.
-      To get started, edit <code>src/App.js</code> and save to reload.
-      To get started, edit <code>src/App.js</code> and save to reload.
-      To get started, edit <code>src/App.js</code> and save to reload.
-      To get started, edit <code>src/App.js</code> and save to reload.
-      To get started, edit <code>src/App.js</code> and save to reload.
-      To get started, edit <code>src/App.js</code> and save to reload.
-      To get started, edit <code>src/App.js</code> and save to reload.
+      Who am I?
     </p>
   </div>
 )

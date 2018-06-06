@@ -16,7 +16,7 @@ const Contact = ({ classes }) => (
   <div className={classes.container}>
     <h1>Contact</h1>
     <p>
-      To get started, edit <code>src/App.js</code> and save to reload.
+      Call me beep me
     </p>
   </div>
 )

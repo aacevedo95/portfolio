@@ -6,7 +6,7 @@ const styles = {
     width: '100%',
     height: 'auto',
     display: 'flex',
-    backgroundImage: 'url(images/info_bg.jpg)',
+    backgroundImage: 'url(images/header_bg.jpg)',
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100% auto',
     color: 'white',
@@ -28,18 +28,20 @@ const styles = {
       paddingBottom: 10
     }
   },
-  info:{
+  info: {
     flexDirection: 'column',
+    textAlign: 'center'
   },
   name: {
     paddingTop: 68,
     paddingLeft: 58,
+    fontSize: '3rem',
     '@media (max-width: 1000px)': {
       paddingTop: 0,
       paddingLeft: 10,
     }
   },
-  title:{
+  title: {
     paddingLeft: 58,
     '@media (max-width: 1000px)': {
       paddingLeft: 10,

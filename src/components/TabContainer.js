@@ -1,6 +1,6 @@
 import React from 'react'
 import injectSheet from 'react-jss'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const styles = {
   container: {
@@ -26,16 +26,12 @@ const styles = {
     '&:hover': {
       filter: 'brightness(115%)',
       transition: '.4s all',
-      boxShadow: '0 0   20px  0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19)',
+      boxShadow: '0 0 20px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19)',
     },
     '@media (max-width: 1000px)': {
       flexBasis: '100%'
     }
   },
-  activeLink: {
-    backgroundColor: 'black'
-  },
-
   about: {
     backgroundColor: '#34344A'
   },
@@ -55,42 +51,73 @@ const styles = {
 
 const TabContainer = ({ classes }) => (
   <div className={classes.container}>
-    <NavLink
-      exact to='/portfolio'
+    <Link
+      to='/portfolio'
       className={[classes.link, classes.about].join(' ')}
-      activeClassName={classes.activeLink}
     >
       About Me
-    </NavLink>
-    <NavLink
+    </Link>
+    <Link
       to='/experience'
       className={[classes.link, classes.experience].join(' ')}
-      activeClassName={classes.activeLink}
     >
       Experience
-    </NavLink>
-    <NavLink
+    </Link>
+    <Link
       to='/projects'
       className={[classes.link, classes.projects].join(' ')}
-      activeClassName={classes.activeLink}
     >
       Projects
-    </NavLink>
-    <NavLink
+    </Link>
+    <Link
       to='/skills'
       className={[classes.link, classes.skills].join(' ')}
-      activeClassName={classes.activeLink}
     >
       Skills
-    </NavLink>
-    <NavLink
+    </Link>
+    <Link
       to='/contact'
       className={[classes.link, classes.contact].join(' ')}
-      activeClassName={classes.activeLink}
     >
       Contact
-    </NavLink>
+    </Link>
   </div>
 )
+
+// const TabContainer = ({ classes }) => (
+//   <div className={classes.container}>
+//     <Link
+//       to='/portfolio'
+//       className={[classes.link, classes.about].join(' ')}
+//       onClick={this.handleShow(0)}
+//     >
+//       About Me
+//     </Link>
+//     <Link
+//       to='/experience'
+//       className={[classes.link, classes.experience].join(' ')}
+//     >
+//       Experience
+//     </Link>
+//     <Link
+//       to='/projects'
+//       className={[classes.link, classes.projects].join(' ')}
+//     >
+//       Projects
+//     </Link>
+//     <Link
+//       to='/skills'
+//       className={[classes.link, classes.skills].join(' ')}
+//     >
+//       Skills
+//     </Link>
+//     <Link
+//       to='/contact'
+//       className={[classes.link, classes.contact].join(' ')}
+//     >
+//       Contact
+//     </Link>
+//   </div>
+// )
 
 export default injectSheet(styles)(TabContainer)
