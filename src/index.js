@@ -14,16 +14,16 @@ import Skills from './components/tabs/Skills'
 import Contact from './components/tabs/Contact'
 
 const Root = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div>
       <Header />
       <TabContainer />
       <Switch>
-        <Route exact path={process.env.PUBLIC_URL + '/portfolio'} component={About} />
-        <Route exact path={process.env.PUBLIC_URL + '/experience'} component={Experience} />
-        <Route exact path={process.env.PUBLIC_URL + '/projects'} component={Projects} />
-        <Route exact path={process.env.PUBLIC_URL + '/skills'} component={Skills} />
-        <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
+        <Route exact path='/portfolio' component={About} />
+        <Route exact path='/experience' component={Experience} />
+        <Route exact path='/projects' component={Projects} />
+        <Route exact path='/skills' component={Skills} />
+        <Route exact path='/contact' component={Contact} />
       </Switch>
     </div>
   </BrowserRouter>
