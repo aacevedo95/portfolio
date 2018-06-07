@@ -52,7 +52,7 @@ const styles = {
 const TabContainer = ({ classes }) => (
   <div className={classes.container}>
     <Link
-      to='/portfolio'
+      to='/'
       className={[classes.link, classes.about].join(' ')}
     >
       About Me

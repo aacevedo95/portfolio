@@ -19,7 +19,7 @@ const Root = () => (
       <Header />
       <TabContainer />
       <Switch>
-        <Route exact path='/portfolio' component={About} />
+        <Route exact path='/' component={About} />
         <Route exact path='/experience' component={Experience} />
         <Route exact path='/projects' component={Projects} />
         <Route exact path='/skills' component={Skills} />
