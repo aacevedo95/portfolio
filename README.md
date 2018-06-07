@@ -16,7 +16,7 @@ git clone https://github.com/ziekhart/ziekhart.github.io.git
 ```
 2. Go to the newly cloned repository's directory
 ```bash
-cd /ziekhart.github.io
+cd portfolio
 ```
 
 3. Install dependencies with `yarn` or `npm i`

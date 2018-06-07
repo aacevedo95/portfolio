@@ -52,16 +52,16 @@ const styles = {
 const TabContainer = ({ classes }) => (
   <div className={classes.container}>
     <Link
-      to='/portfolio'
+      to='/'
       className={[classes.link, classes.about].join(' ')}
     >
       About Me
     </Link>
     <Link
-      to='/experience'
+      to='/experiences'
       className={[classes.link, classes.experience].join(' ')}
     >
-      Experience
+      Experiences
     </Link>
     <Link
       to='/projects'
