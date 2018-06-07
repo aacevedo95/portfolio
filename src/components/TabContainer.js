@@ -58,10 +58,10 @@ const TabContainer = ({ classes }) => (
       About Me
     </Link>
     <Link
-      to='/experience'
+      to='/experiences'
       className={[classes.link, classes.experience].join(' ')}
     >
-      Experience
+      Experiences
     </Link>
     <Link
       to='/projects'

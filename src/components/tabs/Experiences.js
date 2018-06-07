@@ -16,7 +16,7 @@ const styles = {
   }
 }
 
-const Experience = ({ classes }) => (
+const Experiences = ({ classes }) => (
   <div className={classes.container}>
     <h1>Experience</h1>
     <p>
@@ -26,4 +26,4 @@ const Experience = ({ classes }) => (
 )
 
 
-export default injectSheet(styles)(Experience)
+export default injectSheet(styles)(Experiences)
