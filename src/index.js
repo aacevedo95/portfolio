@@ -19,11 +19,11 @@ const Root = () => (
       <Header />
       <TabContainer />
       <Switch>
-        <Route exact path="/portfolio" component={About} />
-        <Route exact path="/experience" component={Experience} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/skills" component={Skills} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path={process.env.PUBLIC_URL + '/portfolio'} component={About} />
+        <Route exact path={process.env.PUBLIC_URL + '/experience'} component={Experience} />
+        <Route exact path={process.env.PUBLIC_URL + '/projects'} component={Projects} />
+        <Route exact path={process.env.PUBLIC_URL + '/skills'} component={Skills} />
+        <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
       </Switch>
     </div>
   </BrowserRouter>

@@ -43,10 +43,10 @@ const Contact = ({ classes }) => (
     </p>
     <div className={classes.contact}>
       <a href='https://www.linkedin.com/in/aaacevedo/' className={classes.items}>
-        <img src='logos/in.png' alt='' />
+        <img src='images/in.png' alt='' />
       </a>
       <a href='mailto:andres.a.acevedo1995@gmail.com' className={classes.items}>
-        <img src='logos/email.png' alt='' />
+        <img src='images/email.png' alt='' />
       </a>
     </div>
 
