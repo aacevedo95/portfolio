@@ -1,7 +1,7 @@
 import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 import registerServiceWorker from './registerServiceWorker'
 
 import Header from './components/Header'
@@ -14,7 +14,7 @@ import Skills from './components/tabs/Skills'
 import Contact from './components/tabs/Contact'
 
 const Root = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <div>
       <Header />
       <TabContainer />
@@ -26,7 +26,7 @@ const Root = () => (
         <Route exact path='/contact' component={Contact} />
       </Switch>
     </div>
-  </BrowserRouter>
+  </HashRouter>
 )
 
 ReactDOM.render(
