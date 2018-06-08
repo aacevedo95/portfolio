@@ -22,10 +22,9 @@ const About = ({ classes }) => (
     <p>
       My name is Andrés, I've been interested in computers ever since being a small kid.
       I've lived in Gurabo, Puerto Rico for the most part of my life.
-      I am a recent graduate from the University of Puerto Rico, Bayamón. 
-
+      I am a recent graduate from the University of Puerto Rico, Bayamón.
     </p>
-  </div>
+  </div >
 )
 
 

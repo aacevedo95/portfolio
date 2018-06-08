@@ -5,7 +5,7 @@ An online portfolio displaying my experiences etc.
 ## Technologies
   1. [React](https://reactjs.org/)
   2. [React JSS](https://github.com/cssinjs/react-jss)
-  3. [AnimateCSS](https://daneden.github.io/animate.css/) + [React-Animations](https://github.com/FormidableLabs/react-animations)
+  3. [react-spring](https://github.com/drcmda/react-spring)
 
 ## Run locally
 In case you're interested to run the site locally:
