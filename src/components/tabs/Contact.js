@@ -2,11 +2,14 @@ import React from 'react'
 import injectSheet from 'react-jss'
 
 const styles = {
-  container: {
-    height: 740,
-    color: 'white',
+  '@global body': {
     backgroundColor: '#8DAA91',
-    paddingTop: 68,
+    paddingBottom: 20
+  },
+  container: {
+    height: '100%',
+    color: 'white',
+    paddingTop: 50,
     paddingLeft: 200,
     paddingRight: 200,
     '@media (max-width: 800px)': {

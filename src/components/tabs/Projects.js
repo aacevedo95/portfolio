@@ -2,11 +2,14 @@ import React from 'react'
 import injectSheet from 'react-jss'
 
 const styles = {
-  container: {
-    height: 740,
-    color: 'white',
+  '@global body': {
     backgroundColor: '#CC5A71',
-    paddingTop: 68,
+    paddingBottom: 20
+  },
+  container: {
+    height: '100%',
+    color: 'white',
+    paddingTop: 50,
     paddingLeft: 200,
     paddingRight: 200,
     '@media (max-width: 800px)': {
@@ -18,7 +21,7 @@ const styles = {
 
 const Projects = ({ classes }) => (
   <div className={classes.container}>
-    <h1>Project</h1>
+    <h1>Projects</h1>
     <p>
       Again, what HAVE i done?
     </p>
