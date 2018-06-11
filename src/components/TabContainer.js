@@ -49,39 +49,58 @@ const styles = {
   }
 }
 
-const TabContainer = ({ classes }) => (
-  <div className={classes.container}>
-    <Link
-      to='/'
-      className={[classes.link, classes.about].join(' ')}
-    >
-      About Me
-    </Link>
-    <Link
-      to='/experiences'
-      className={[classes.link, classes.experience].join(' ')}
-    >
-      Experiences
-    </Link>
-    <Link
-      to='/projects'
-      className={[classes.link, classes.projects].join(' ')}
-    >
-      Projects
-    </Link>
-    <Link
-      to='/skills'
-      className={[classes.link, classes.skills].join(' ')}
-    >
-      Skills
-    </Link>
-    <Link
-      to='/contact'
-      className={[classes.link, classes.contact].join(' ')}
-    >
-      Contact
-    </Link>
-  </div>
-)
+class TabContainer extends React.Component {
+  scrollToBottom = () => {
+    this.pageEnd.scrollIntoView({ behavior: "smooth" });
+  }
+  componentDidMount() {
+    this.scrollToBottom();
+  }
+  componentDidUpdate() {
+    this.scrollToBottom();
+  }
 
+  render() {
+    const { classes } = this.props
+    return (
+      <div className={classes.container}>
+        <Link
+          to='/'
+          className={[classes.link, classes.about].join(' ')}
+        >
+          About Me
+        </Link>
+        <Link
+          to='/experiences'
+          className={[classes.link, classes.experience].join(' ')}
+        >
+          Experiences
+        </Link>
+        <Link
+          to='/projects'
+          className={[classes.link, classes.projects].join(' ')}
+        >
+          Projects
+        </Link>
+        <Link
+          to='/skills'
+          className={[classes.link, classes.skills].join(' ')}
+        >
+          Skills
+        </Link>
+        <Link
+          to='/contact'
+          className={[classes.link, classes.contact].join(' ')}
+          onClick={window.scrollTo(0, 0)}
+        >
+          Contact
+        </Link>
+        <div
+          style={{ float: "left", clear: "both" }}
+          ref={(elem) => { this.pageEnd = elem; }}
+        />
+      </div >
+    )
+  }
+}
 export default injectSheet(styles)(TabContainer)

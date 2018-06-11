@@ -1,5 +1,6 @@
 import React from 'react'
 import injectSheet from 'react-jss'
+import Fade from 'react-reveal/Fade';
 
 const styles = {
   '@global body': {
@@ -23,13 +24,15 @@ const styles = {
 const About = ({ classes }) => (
   <div className={classes.container}>
     <h1>About Me</h1>
-    <p>
-      My name is Andrés, I've been interested in computers ever since being a small kid.
-      I am a recent graduate from the University of Puerto Rico, Bayamón.  I'm a self-learner that enjoys
-      improving my skills. Throughout all the projects that I've worked on, each one being more complex than the last,
-      I've steadily improved my problem-solving skills. I wish to continue to develop all these skills making sure 
-      to always give my 100%.
+    <Fade top>
+      <p>
+        My name is Andrés, I've been interested in computers ever since being a small kid.
+        I am a recent graduate from the University of Puerto Rico, Bayamón.  I'm a self-learner that enjoys
+        improving my skills. Throughout all the projects that I've worked on, each one being more complex than the last,
+        I've steadily improved my problem-solving skills. I wish to continue to develop all these skills making sure
+        to always give my 100%.
       </p>
+    </Fade>
   </div >
 )
 
