@@ -67,7 +67,7 @@ const Skills = ({ classes }) => (
     <div className={classes.content}>
       <Flip bottom cascade>
         <img src='images/mLogo.png' alt='' />
-        <img src='images/postLogo.png' alt='' />
+        <img src='images/gitLogo.png' alt='' />
       </Flip>
     </div>
   </div>
