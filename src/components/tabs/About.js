@@ -32,6 +32,14 @@ const About = ({ classes }) => (
         I've steadily improved my problem-solving skills. I wish to continue to develop all these skills making sure
         to always give my 100%.
       </p>
+
+      <p>
+        During my Bachelor's degree, I participated in numerous programming competitions with two other
+        colleagues. These competitions helped us prove our problem solving skills in a time limited
+        scenario, forcing us to think up the best possible solution in the least amount of time.
+        I also was the secretary of the Computer Science Association, helping manage all the
+        events the association had. 
+      </p>
     </Fade>
   </div >
 )

@@ -28,5 +28,4 @@ const Projects = ({ classes }) => (
   </div>
 )
 
-
 export default injectSheet(styles)(Projects)

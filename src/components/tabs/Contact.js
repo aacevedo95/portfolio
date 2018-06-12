@@ -37,7 +37,6 @@ const styles = {
   }
 }
 
-
 const Contact = ({ classes }) => (
   <div className={classes.container}>
     <h1>Contact</h1>
@@ -52,10 +51,7 @@ const Contact = ({ classes }) => (
         <img src='images/email.png' alt='' />
       </a>
     </div>
-
   </div>
 )
-
-
 
 export default injectSheet(styles)(Contact)
