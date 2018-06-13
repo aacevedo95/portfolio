@@ -19,8 +19,8 @@ const styles = {
     },
     '& img': {
       width: '80px',
-      height: 'auto',
-      paddingBottom: 20
+      height: '100px',
+      marginBottom: 20
     }
   },
   content: {
