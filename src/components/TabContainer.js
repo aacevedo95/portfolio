@@ -53,9 +53,6 @@ class TabContainer extends React.Component {
   scrollToBottom = () => {
     this.pageEnd.scrollIntoView({ behavior: "smooth" });
   }
-  componentDidMount() {
-    this.scrollToBottom();
-  }
   componentDidUpdate() {
     this.scrollToBottom();
   }

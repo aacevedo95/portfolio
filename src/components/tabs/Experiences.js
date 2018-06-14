@@ -45,7 +45,6 @@ const styles = {
     '@media (max-width: 800px)': {
       width: '50%',
       marginLeft: 0,
-
     }
   },
   largeLogo: {
@@ -55,6 +54,11 @@ const styles = {
     '@media (max-width: 800px)': {
       width: '100%'
     }
+  },
+  lineStyle:{
+    border: 0, 
+    height: 1, 
+    backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))'
   }
 }
 
@@ -74,11 +78,11 @@ const Experiences = ({ classes }) => (
           all "Paso Fino" horses that are posted for sale on a single site. The technologies I used for the
           frontend were: React, Reactstrap, Materialize CSS. For the Backend: NodeJS, Express, MongooseJS. Lastly,
           a NoSQL database was used for all the data. (MongoDB)
-            </p>
+        </p>
         <img src='images/pLogo.png' alt='' className={classes.pixLogo} />
       </div>
     </Fade>
-    <hr />
+    <hr className={classes.lineStyle}/>
     <Fade right cascade>
       <div className={classes.rowRight} >
         <p>
@@ -91,11 +95,11 @@ const Experiences = ({ classes }) => (
           Worked on the company's tax filing windows application and web app.
           Developed using the MVC framework with Microsoft technologies in an Agile enviroment.
           Technologies used: C#, Angular, and KnockoutJS.
-            </p>
+        </p>
         <img src='images/ceg.jpg' alt='' className={classes.largeLogo} />
       </div>
     </Fade>
-    <hr />
+    <hr className={classes.lineStyle}/>
     <Fade left cascade>
       <div className={classes.rowLeft}>
         <p>
@@ -107,7 +111,7 @@ const Experiences = ({ classes }) => (
           <br /><br />
           Mentored 40 high school students in a Computer Science summer camp.
           I offered the students an introductory programming course using Scratch.
-      </p>
+        </p>
         <img src='images/o.png' alt='' className={classes.largeLogo} />
       </div>
     </Fade>
