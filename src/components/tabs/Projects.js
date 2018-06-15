@@ -68,7 +68,7 @@ const Projects = ({ classes }) => (
         <br />
           • React, Redux, Go, PostgreSQL
         <br /><br />
-          Time tracking application developed with a friend. Used to manage time management issues
+          Time tracking application developed with a friend. Used to solve time management issues
         when working with personal or professional projects. <a href='https://clockio.online'>Site</a>
         </p>
       </div>

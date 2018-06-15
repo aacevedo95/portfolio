@@ -24,7 +24,7 @@ const styles = {
 const About = ({ classes }) => (
   <div className={classes.container}>
     <h1>About Me</h1>
-    <Fade top>
+    <Fade bottom>
       <p>
         My name is Andrés, I've been interested in computers ever since being a small kid.
         I am a recent graduate from the University of Puerto Rico, Bayamón.  I'm a self-learner that enjoys
