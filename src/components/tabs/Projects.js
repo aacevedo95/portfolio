@@ -8,6 +8,7 @@ const styles = {
     paddingBottom: 20
   },
   container: {
+    width:'100%',
     height: '100%',
     color: 'white',
     paddingTop: 50,
@@ -32,7 +33,7 @@ const styles = {
   },
   rowImages: {
     display: 'flex',
-    width: '100%',
+    width: '80%',
     height: 'auto',
     textAlign: 'center',
     '@media (max-width: 800px)': {
@@ -43,7 +44,7 @@ const styles = {
   largeLogo: {
     boxShadow: '0 0 20px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19)',
     paddingTop: 0,
-    width: '100%',
+    width: '33%',
     height: 'auto',
     marginRight: 20,
     '@media (max-width: 800px)': {
