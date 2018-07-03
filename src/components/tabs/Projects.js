@@ -8,7 +8,7 @@ const styles = {
     paddingBottom: 20
   },
   container: {
-    width:'100%',
+    width:'80%',  
     height: '100%',
     color: 'white',
     paddingTop: 50,
@@ -33,7 +33,7 @@ const styles = {
   },
   rowImages: {
     display: 'flex',
-    width: '80%',
+    width: '100%',
     height: 'auto',
     textAlign: 'center',
     '@media (max-width: 800px)': {
