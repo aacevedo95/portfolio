@@ -8,7 +8,6 @@ const styles = {
     paddingBottom: 20
   },
   container: {
-    width:'80%',  
     height: '100%',
     color: 'white',
     paddingTop: 50,
@@ -45,7 +44,7 @@ const styles = {
     boxShadow: '0 0 20px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19)',
     paddingTop: 0,
     width: '33%',
-    height: 'auto',
+    height: '100%',
     marginRight: 20,
     '@media (max-width: 800px)': {
       marginTop: 5,
@@ -56,7 +55,7 @@ const styles = {
     boxShadow: '0 0 20px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19)',
     paddingTop: 0,
     width: '100%',
-    height: 'auto',
+    height: '100%',
     marginRight: 20,
     '@media (max-width: 800px)': {
       marginTop: 5,
