@@ -52,6 +52,17 @@ const styles = {
       width: '100%'
     }
   },
+  poster: {
+    boxShadow: '0 0 20px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19)',
+    paddingTop: 0,
+    width: '100%',
+    height: 'auto',
+    marginRight: 20,
+    '@media (max-width: 800px)': {
+      marginTop: 5,
+      width: '100%'
+    }
+  },
   lineStyle: {
     border: 0,
     height: 1,
@@ -110,7 +121,7 @@ const Projects = ({ classes }) => (
         </p>
       </div>
       <div className={classes.rowImages}>
-        <img src='images/tesinaPoster.png' alt='' className={classes.largeLogo} />
+        <img src='images/tesinaPoster.png' alt='' className={classes.poster} />
       </div>
     </Slide>
   </div>
