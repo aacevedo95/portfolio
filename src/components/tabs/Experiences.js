@@ -51,7 +51,7 @@ const styles = {
   },
   largeLogo: {
     width: '40%',
-    height: 'auto',
+    height: '40%',
     marginRight: 20,
     '@media (max-width: 800px)': {
       width: '100%'
