@@ -8,8 +8,6 @@ const styles = {
     paddingBottom: 20
   },
   container: {
-    width:'100%',
-
     height: '100%',
     color: 'white',
     paddingTop: 50,
