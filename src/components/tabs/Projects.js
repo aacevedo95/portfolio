@@ -88,6 +88,7 @@ const Projects = ({ classes }) => (
         <img src='images/connecting3.png' alt='' className={classes.largeLogo} />
       </div>
     </Slide>
+    <br /><hr className={classes.lineStyle} />
     <Slide left cascade>
       <div className={classes.row}>
         <p>
