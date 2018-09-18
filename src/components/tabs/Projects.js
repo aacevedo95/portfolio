@@ -72,6 +72,22 @@ const styles = {
 const Projects = ({ classes }) => (
   <div className={classes.container}>
     <h1>Projects</h1>
+    <Slide right cascade>
+      <div className={classes.row}>
+        <p>
+          Connecting U Admin Panel
+        <br />
+          • React, Back4App, ParseAPI
+        <br /><br />
+          Hosted on Heroku. Made so that the owner could manage users and order statuses.
+        </p>
+      </div>
+      <div className={classes.rowImages}>
+        <img src='images/connecting1.png' alt='' className={classes.largeLogo} />
+        <img src='images/connecting2.png' alt='' className={classes.largeLogo} />
+        <img src='images/connecting3.png' alt='' className={classes.largeLogo} />
+      </div>
+    </Slide>
     <Slide left cascade>
       <div className={classes.row}>
         <p>
