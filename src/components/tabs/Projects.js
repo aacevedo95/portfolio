@@ -83,9 +83,9 @@ const Projects = ({ classes }) => (
         </p>
       </div>
       <div className={classes.rowImages}>
-        <img src='images/connecting1.png' alt='' className={classes.largeLogo} />
-        <img src='images/connecting2.png' alt='' className={classes.largeLogo} />
-        <img src='images/connecting3.png' alt='' className={classes.largeLogo} />
+        <img src='/images/connecting1.png' alt='' className={classes.largeLogo} />
+        <img src='/images/connecting2.png' alt='' className={classes.largeLogo} />
+        <img src='/images/connecting3.png' alt='' className={classes.largeLogo} />
       </div>
     </Slide>
     <br /><hr className={classes.lineStyle} />
@@ -101,9 +101,9 @@ const Projects = ({ classes }) => (
         </p>
       </div>
       <div className={classes.rowImages}>
-        <img src='images/clock1.png' alt='' className={classes.largeLogo} />
-        <img src='images/clock2.png' alt='' className={classes.largeLogo} />
-        <img src='images/clock3.png' alt='' className={classes.largeLogo} />
+        <img src='/images/clock1.png' alt='' className={classes.largeLogo} />
+        <img src='/images/clock2.png' alt='' className={classes.largeLogo} />
+        <img src='/images/clock3.png' alt='' className={classes.largeLogo} />
       </div>
     </Slide>
     <br /><hr className={classes.lineStyle} />
@@ -119,9 +119,9 @@ const Projects = ({ classes }) => (
         </p>
       </div>
       <div className={classes.rowImages}>
-        <img src='images/mpf1.png' alt='' className={classes.largeLogo} />
-        <img src='images/mpf2.png' alt='' className={classes.largeLogo} />
-        <img src='images/mpf3.png' alt='' className={classes.largeLogo} />
+        <img src='/images/mpf1.png' alt='' className={classes.largeLogo} />
+        <img src='/images/mpf2.png' alt='' className={classes.largeLogo} />
+        <img src='/images/mpf3.png' alt='' className={classes.largeLogo} />
       </div>
     </Slide>
     <br /><hr className={classes.lineStyle} />
@@ -137,7 +137,7 @@ const Projects = ({ classes }) => (
         </p>
       </div>
       <div className={classes.rowImages}>
-        <img src='images/tesinaPoster.png' alt='' className={classes.poster} />
+        <img src='/images/tesinaPoster.png' alt='' className={classes.poster} />
       </div>
     </Slide>
   </div>
