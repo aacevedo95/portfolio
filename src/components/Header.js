@@ -6,7 +6,7 @@ const styles = {
     width: '100%',
     height: 'auto',
     display: 'flex',
-    backgroundImage: 'url(/images/header_bg.jpg)',
+    backgroundImage: 'url(images/header_bg.jpg)',
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100% auto',
     color: 'white',
@@ -52,7 +52,7 @@ const styles = {
 
 const Header = ({ classes }) => (
   <div className={classes.container}>
-    <img src='/images/me2.png' alt='Me' className={classes.image} />
+    <img src='images/me2.png' alt='Me' className={classes.image} />
     <div className={classes.info}>
       <h1 className={classes.name}>Andrés A. Acevedo</h1>
       <h2 className={classes.title}>Web Developer</h2>

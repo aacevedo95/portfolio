@@ -46,28 +46,28 @@ const Skills = ({ classes }) => (
     <h2>Front-end</h2>
     <div className={classes.content}>
       <Flip left cascade>
-        <img src='/images/reactLogo.png' alt='' />
-        <img src='/images/hLogo.png' alt='' />
-        <img src='/images/cssLogo.svg' alt='' />
-        <img src='/images/bLogo.png' alt='' />
+        <img src='images/reactLogo.png' alt='' />
+        <img src='images/hLogo.png' alt='' />
+        <img src='images/cssLogo.svg' alt='' />
+        <img src='images/bLogo.png' alt='' />
       </Flip>
     </div>
 
     <h2>Back-end</h2>
     <div className={classes.content}>
       <Flip right cascade>
-        <img src='/images/jsLogo.png' alt='' />
-        <img src='/images/nodeLogo.png' alt='' />
-        <img src='/images/csLogo.png' alt='' />
-        <img src='/images/javLogo.png' alt='' />
+        <img src='images/jsLogo.png' alt='' />
+        <img src='images/nodeLogo.png' alt='' />
+        <img src='images/csLogo.png' alt='' />
+        <img src='images/javLogo.png' alt='' />
       </Flip>
     </div>
 
     <h2>Etc</h2>
     <div className={classes.content}>
       <Flip bottom cascade>
-        <img src='/images/mLogo.png' alt='' />
-        <img src='/images/gitLogo.png' alt='' />
+        <img src='images/mLogo.png' alt='' />
+        <img src='images/gitLogo.png' alt='' />
       </Flip>
     </div>
   </div>

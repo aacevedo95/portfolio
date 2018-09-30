@@ -80,7 +80,7 @@ const Experiences = ({ classes }) => (
           frontend were: React, Reactstrap, Materialize CSS. For the Backend: NodeJS, Express, MongooseJS. Lastly,
           a NoSQL database was used for all the data. (MongoDB)
         </p>
-        <img src='/images/pLogo.png' alt='' className={classes.pixLogo} />
+        <img src='images/pLogo.png' alt='' className={classes.pixLogo} />
       </div>
     </Fade>
     <hr className={classes.lineStyle}/>
@@ -97,7 +97,7 @@ const Experiences = ({ classes }) => (
           Developed using the MVC framework with Microsoft technologies in an Agile enviroment.
           Technologies used: C#, Angular, and KnockoutJS.
         </p>
-        <img src='/images/ceg.jpg' alt='' className={classes.largeLogo} />
+        <img src='images/ceg.jpg' alt='' className={classes.largeLogo} />
       </div>
     </Fade>
     <hr className={classes.lineStyle}/>
@@ -113,7 +113,7 @@ const Experiences = ({ classes }) => (
           Mentored 40 high school students in a Computer Science summer camp.
           I offered the students an introductory programming course using Scratch.
         </p>
-        <img src='/images/o.png' alt='' className={classes.largeLogo} />
+        <img src='images/o.png' alt='' className={classes.largeLogo} />
       </div>
     </Fade>
   </div>
