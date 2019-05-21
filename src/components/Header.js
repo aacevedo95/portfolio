@@ -1,12 +1,22 @@
-import React from 'react'
-import injectSheet from 'react-jss'
+import React from 'react';
+import injectSheet from 'react-jss';
+
+const Header = ({ classes }) => (
+  <div className={classes.container}>
+    <img src="images/me2.png" alt="Me" className={classes.image} />
+    <div className={classes.info}>
+      <h1 className={classes.name}>Andrés A. Acevedo</h1>
+      <h2 className={classes.title}>Full-Stack Developer</h2>
+    </div>
+  </div>
+);
 
 const styles = {
   container: {
     width: '100%',
     height: 'auto',
     display: 'flex',
-    backgroundImage: 'url(images/header_bg.jpg)',
+    backgroundImage: 'url(./images/header_bg.png)',
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100% auto',
     color: 'white',
@@ -16,7 +26,7 @@ const styles = {
       flexWrap: 'wrap',
       justifyContent: 'center',
       backgroundSize: '100% 100%',
-    }
+    },
   },
   image: {
     paddingTop: 68,
@@ -25,39 +35,31 @@ const styles = {
     '@media (max-width: 1000px)': {
       paddingTop: 20,
       marginLeft: 0,
-      paddingBottom: 10
-    }
+      paddingBottom: 10,
+    },
   },
   info: {
     flexDirection: 'column',
-    textAlign: 'center'
+    textAlign: 'center',
   },
   name: {
-    paddingTop: 68,
-    paddingLeft: 58,
+    color: '#2c2c4b',
+    marginTop: 68,
+    marginLeft: 58,
     fontSize: '3rem',
+    textShadow: '2px 2px #80475e',
     '@media (max-width: 1000px)': {
-      paddingTop: 0,
-      paddingLeft: 10,
-    }
+      marginTop: 0,
+      marginLeft: 10,
+    },
   },
   title: {
-    paddingLeft: 58,
+    color: '#2c2c4b',
+    marginLeft: 58,
+    textShadow: '1px 1px #80475e',
     '@media (max-width: 1000px)': {
-      paddingLeft: 10,
-    }
-  }
-
-}
-
-const Header = ({ classes }) => (
-  <div className={classes.container}>
-    <img src='images/me2.png' alt='Me' className={classes.image} />
-    <div className={classes.info}>
-      <h1 className={classes.name}>Andrés A. Acevedo</h1>
-      <h2 className={classes.title}>Web Developer</h2>
-    </div>
-  </div>
-)
-
-export default injectSheet(styles)(Header)
+      marginLeft: 10,
+    },
+  },
+};
+export default injectSheet(styles)(Header);
