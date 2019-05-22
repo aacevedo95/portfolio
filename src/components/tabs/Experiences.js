@@ -12,8 +12,9 @@ const Experiences = ({ classes }) => (
       duration="(August, 2018 - Present)"
       position="Fullstack Developer"
       description="Worked on various products:
-      MyStrengthBook: Worked on both Web App, and Mobile App development. Tasked with maintaining both apps, as well as making new features across front-end and back-end, in a fast paced environment.
-      HeeroFit: Mobile App development. Worked with a team to create this new mobile app from"
+      MyStrengthBook: Worked on both Web App, and Mobile App development. Tasked with maintaining both apps, 
+      as well as making new features across front-end and back-end, in a fast paced environment. (React, React-Native, RillJS, MongoDB)
+      HeeroFit: Mobile App development. Worked with a team to create this new mobile app from. (React-Native, Elixir, PostgreSql, GraphQL)"
       image="images/msbLogo.jpg"
     />
     <ExperienceItem

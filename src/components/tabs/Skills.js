@@ -26,8 +26,9 @@ const Skills = ({ classes }) => (
 
       <h2>Etc</h2>
       <div className={classes.content}>
-        <img src="images/mLogo.png" alt="" />
         <img src="images/gitLogo.png" alt="" />
+        <img src="images/mLogo.png" alt="" />
+        <img src="images/gqlLogo.png" alt="" />
         <img src="images/redisLogo.svg" alt="" />
         <img src="images/postgresLogo.png" alt="" />
       </div>
