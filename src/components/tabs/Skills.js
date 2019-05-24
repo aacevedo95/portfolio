@@ -18,6 +18,7 @@ const Skills = ({ classes }) => (
       <h2>Back-end</h2>
       <div className={classes.content}>
         <img src="images/jsLogo.png" alt="" />
+        <img src="images/typeScriptLogo.svg" alt="" />
         <img src="images/nodeLogo.png" alt="" />
         <img src="images/csLogo.png" alt="" />
         <img src="images/javLogo.png" alt="" />
