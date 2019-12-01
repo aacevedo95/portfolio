@@ -15,7 +15,7 @@ const Contact = ({ classes }) => (
       <a href="mailto:andres.a.acevedo1995@gmail.com" className={classes.items}>
         <img src="images/email.png" alt="" />
       </a>
-      <a href="https://github.com/ziekhart" className={classes.items}>
+      <a href="https://github.com/aacevedo95" className={classes.items}>
         <img src="images/ghub.png" alt="" />
       </a>
     </div>
