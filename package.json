@@ -6,7 +6,7 @@
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.0",
-    "react-dom": "^16.4.0",
+    "react-dom": "^16.4.2",
     "react-jss": "^8.4.0",
     "react-reveal": "^1.2.2",
     "react-router": "^4.2.0",
